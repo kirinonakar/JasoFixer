@@ -18,7 +18,7 @@ echo [+] Compiling Resources...
 rc JasoFixer.rc
 
 echo [+] Compiling JasoFixer.cpp...
-cl /O2 /MT /EHsc /utf-8 JasoFixer.cpp JasoFixer.res /link /SUBSYSTEM:WINDOWS
+cl /O2 /GL /MT /GS /EHsc /utf-8 JasoFixer.cpp JasoFixer.res /link /LTCG /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /DYNAMICBASE /NXCOMPAT /HIGHENTROPYVA
 
 if %ERRORLEVEL% equ 0 (
     echo [+] Compilation successful! JasoFixer.exe has been created.
