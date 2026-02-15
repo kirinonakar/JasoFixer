@@ -20,13 +20,13 @@
 ## 🚀 사용 위치 및 다운로드
 맥 운영체제의 자소 분리(NFD) 방식 파일명을 윈도우 표준(NFC) 방식으로 일괄 변경하고 싶을 때 사용하세요.
 
-최신 실행 파일은 **[GitHub Releases](https://github.com/your-repo/JasoFixer/releases)** 페이지에서 다운로드할 수 있습니다.
+최신 실행 파일은 **[GitHub Releases](https://github.com/kirinonakar/JasoFixer/releases)** 페이지에서 다운로드할 수 있습니다.
 
 ## 🛠 설치 및 빌드
 Windows 환경에서 Visual Studio의 `nmake` 또는 제공된 `build.bat` 파일을 사용하여 빌드할 수 있습니다.
 
 ```bash
-git clone https://github.com/your-repo/JasoFixer.git
+git clone https://github.com/kirinonakar/JasoFixer.git
 cd JasoFixer
 build.bat
 ```
